@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sing up</title>
+    <link rel="stylesheet" href="../css/singup.css">
+</head>
+<body>
+    <div class="login">
+        <div><h1>sign up</h1></div>
+        <form onsubmit="return SignUp() " method="post" >
+            <div class="input">
+                <input type="text" id="name" required placeholder="username">
+                <br>
+                <input type="password" id="pass" required placeholder="password">
+                <br>
+                <input type="password" id="cpass" required placeholder=" c_password">
+                <br>
+                <input type="email" id="email" required placeholder="exmple@ex.com">
+                <br>
+                <label>gender</label>
+                    <span>
+                        <label>m<input type="radio" id="redio" name="gender" value="male"></label>
+                        <label>f<input type="radio" id="redio" name="gender" value="female"></label>
+                    </span>
+
+                <br>
+                <select name="city" id="select">
+                    <option value="cairo">cairo</option>
+                    <option value="wadi alnatrun">wadi alnatrun</option>
+                    <option value="new valley">new valley</option>
+                </select>
+                
+
+            </div>
+            <div class="other">
+                <button  >ok soka</button>
+                <br>
+                <label>have account<a href="#">login</a></label>
+                <br>
+            </div>
+        </form>
+    </div>
+    <script src="../js/singup.js"></script>
+</body>
+</html>
